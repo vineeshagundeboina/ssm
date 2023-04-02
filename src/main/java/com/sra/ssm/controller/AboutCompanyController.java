@@ -14,4 +14,3 @@ public class AboutCompanyController {
 	//public ResponseEntity<List<AboutCompany>>getAllAboutCompany() 
 
 }
-//hi
