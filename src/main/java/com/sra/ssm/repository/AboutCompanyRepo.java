@@ -5,9 +5,8 @@ import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.sra.ssm.entity.Manager;
-
+import com.sra.ssm.entity.AboutCompany;
 @Repository
-public interface ManagerRepo extends JpaRepository<Manager, UUID>{
+public interface AboutCompanyRepo extends JpaRepository<AboutCompany,UUID>{
 
 }

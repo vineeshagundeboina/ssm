@@ -1,5 +1,10 @@
 package com.sra.ssm.entity;
 
-public class AboutCompany {
+import javax.persistence.Entity;
+
+import com.sra.ssm.common.BaseEntity;
+
+@Entity
+public class AboutCompany extends BaseEntity {
 
 }

@@ -1,5 +1,13 @@
 package com.sra.ssm.repository;
 
-public interface ProjectsRepo {
+import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.sra.ssm.entity.Projects;
+
+@Repository
+public interface ProjectsRepo extends JpaRepository<Projects, UUID>{
 
 }
